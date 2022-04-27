@@ -3,7 +3,7 @@ name: My first workflow
 on: [push]
 
 jobs:
-    echo some stuff to the screen:
+    echo-some-stuff-to-the-screen:
         runs-on:  ubuntu-latest
         steps:
             - name: echo a
