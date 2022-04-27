@@ -6,7 +6,7 @@ jobs:
     echo some stuff to the screen:
         runs-on:  ubuntu-latest
         steps:
-            - name: echo part1
+            - name: echo a
               run: echo "Nice oneeeeee"
-            - name: echo part 2
+            - name: echo b
               run: echo "Nice twooooooo"
