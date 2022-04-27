@@ -1,0 +1,12 @@
+name: My first workflow
+
+on: [push]
+
+jobs:
+    echo some stuff to the screen:
+        runs-on:  ubuntu-latest
+        steps:
+            - name: echo part1
+              run: echo "Nice oneeeeee"
+            - name: echo part 2
+              run: echo "Nice twooooooo"
